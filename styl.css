@@ -1,0 +1,1264 @@
+@font-face {
+    font-family:pn;
+    src: url(./PPNeueMontreal.ttf);
+}
+
+
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: pn;
+         
+  }
+
+
+  html,body{
+    height:100%;
+    width: 100%;
+    overflow-x:visible;
+    scroll-behavior: smooth;
+
+  }
+
+
+  #main{
+    height:100%;
+    width: 100%;
+
+  }
+
+  /* COUNTING LOADING ANIMETION */
+
+
+  
+  
+  #loader{
+    height: 100%;
+    width: 100%;
+    position:fixed ;
+    background-color: black;
+    z-index: 99;
+    /* display: flex;  */
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+    padding-top: 100px;
+    
+  }
+
+  #loader h3{
+    font-size: 38px;
+    font-weight: 100;
+    margin-left: 100px;
+   padding-top: 0px;
+
+  }  
+
+  #page1{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    position: relative;
+    z-index: 10; 
+    color: #fff;
+   
+  }
+
+  #cursor{
+    height: 144px;
+    width: 144px;
+    background-color: rgba(0, 0, 0, 0.707);
+    border-radius: 50%;
+    position: fixed;
+    z-index:1070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    
+}
+
+#cursor h5{
+    font-size: 23px;
+    font-weight: 5;
+    color: #fff;
+    text-transform: none;
+}
+
+#page1-content{
+
+ /* background-color: rgba(0, 0, 0, 0.295);*/
+  position: relative;
+  z-index: 10;
+  color:  rgb(216, 216, 216);
+}
+
+
+  nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 38px;
+    width: 95%;
+    font-size: 15.2px;
+    color: black; 
+    margin-left: 40px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    position:fixed;
+    z-index: 99; 
+
+  }
+  nav h2 a{
+    display: inline-block;
+    font-weight: 70px;
+    color:black;
+    text-decoration: none;
+    padding-inline: 5px;
+  }
+  
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+  background-color: #f50e0e00;
+}
+.bounding h1 {
+  transform: translateY(100%);
+}
+
+
+#heading .boundingelm {
+    opacity: 100;
+    line-height:0.90;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-weight: 580; 
+    color: black;
+    padding-left:67px;
+    padding-top: 45px;
+    margin-left: 5px;
+}
+
+
+.base_titel{
+  margin-left: 80px;
+  width: fit-content;
+ background-color: #f50e0e00;
+}
+
+h5 {
+
+ color: black;
+ overflow: hidden;
+ text-align: right;
+ text-transform: uppercase;
+ font-size: 15px;
+ margin-left:0px;
+ 
+}
+h5 span{
+  display: inline-block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 4.3s;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+.box_container{
+  margin-left: 0px;
+  height: fit-content;
+ background-color: #f50e0e00;
+ overflow: hidden;
+}
+
+.box{
+height: 250px;
+width:40%;
+max-width: 75%;
+resize: 40%;
+color: #f50e0e;
+background-size: cover;
+background-color:rgb(255, 255, 255);
+overflow:hidden;
+resize: horizontal;
+padding: 5rem;
+margin-left: 80px;
+margin-top: 10px;
+object-fit:contain;
+background-image: url(/cover\ img\ PS.jpg); 
+
+display: block;
+animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 3.9s;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+
+
+
+
+.Arrow span{
+  
+  font-size: 15vh;
+  color: black;
+  padding-left: 3.5vw; 
+  animation:fadeInDown;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+
+}
+
+ 
+#AnimatedLines {
+  font-size: 3vh;
+  margin-left: 20vw;
+  padding-top: 20vh; 
+  text-transform: uppercase; 
+  font-weight: lighter;
+  color: black;
+  margin-bottom: -16vh;  
+} 
+#AnimatedLines{
+
+  animation:fadeInUp;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+}
+
+
+
+
+ #Titelname {
+  margin-top: -31vh; 
+  color: black;
+  margin-left: 62vw;
+  overflow: hidden;
+  text-transform: uppercase;
+  width:fit-content;
+  padding-inline-start: 30px;
+  background-color: #f50e0e00;
+  
+ }
+
+  h1{
+  font-size: 130px;  
+  font-weight:580;
+  line-height: 6vw;
+  line-height:0.90;
+  margin-left:-4vw ;
+ 
+ }
+
+ h1 span{
+  display: block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 4.2s;
+ }
+ 
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+ 
+ #page2{
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  /* z-index: 10; */
+  color: #fff;
+}
+
+.HomeProfile_bio{
+  font-size: 2.5vw;
+  padding-left: 61vh;
+  padding-top: 40vh;
+  text-transform: uppercase;
+  color: black;
+  line-break: anywhere;
+  margin-left:-4vw ;
+  margin-right: 25vh;
+  position: relative;
+  
+}
+
+.page_No h4{
+  font-size: 3vh;
+  /* padding-left: 3vh; */
+  color: black;
+  font-weight: lighter;
+  margin-left:-22vw ;
+  margin-right: 20vh;
+  margin-bottom: -5vh;
+  
+}
+
+.advantage_titel h4{
+  font-size: 3vh;
+  padding-left: 10vh;
+  padding-top: 30vh;
+  text-transform:none;
+  font-weight: lighter;
+  color: black;
+  margin-left:-3vw ;
+  margin-right: 20vh;
+  margin-bottom: -5vh;
+  position: relative;
+}
+
+.paraghraph_lines {
+  font-size: 1.5vw;
+  font-weight:580;
+  margin-top: 0vh;
+  padding-left: 50vh;
+  padding-top: -3vh;
+  text-transform: none;
+  color: black;
+  margin-left:-1vw ;
+  margin-right: 13.5vh;
+  position:relative;
+  padding-bottom: 20vh;
+  
+}
+
+#page3{
+  min-height: 220vh;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  z-index: 9;
+  color: #fff;
+}
+
+.page_No2 h4{
+  font-size: 3vh;
+  color: black;
+  font-weight: lighter;
+  padding-top: 20vh;
+  margin-left: 10vh; 
+}
+
+.Recent-project{
+  font-size: 3.5vh;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
+  margin-left: 50vh; 
+  margin-top: -25vh;
+
+}
+
+.Creative-designe{
+  font-size: 3.5vh;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
+  margin-left: 130vh; 
+  margin-top: -27vh;
+  
+}
+
+.project-1 h4{
+  color: black;
+  font-weight: 100;
+  font-size: 15vh;
+  padding-top: 13vh;
+  margin-left:8vh;
+  line-height:1;
+}
+
+
+.aboutimg{
+   margin:0 auto; 
+   margin-left: 50vw;
+   margin-top: -14vw;
+   height:63vw;
+   width: 43vw;
+   overflow:hidden; 
+   background: url("/REJOUICE®\ _\ Digital\ Agency\ &\ Venture\ Firm.jpeg") 50% 50% / auto 100% no-repeat; 
+   background-size:cover; 
+  }
+.aboutimg img{
+  min-height: 63vw;
+  min-width:43vw;
+  transform-origin: center center; 
+  transform: translate(0%, 0%);
+}
+
+.project-1info{
+  color: black;
+  font-size: 3.5vh;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: -40vw;
+  margin-left: 8vw;
+
+}
+
+.project-2 h4{
+  color: black;
+  font-weight: 100;
+  font-size: 15vh;
+  padding-top: 33vh;
+  margin-left:8vh;
+  line-height:1;
+  text-transform: uppercase;
+}
+
+.aboutimg2{
+  margin:0 auto; 
+  margin-left: 50vw;
+  margin-top: -14vw;
+  height:63vw;
+  width: 43vw;
+  overflow:hidden; 
+  background: url("/about-cover.jpg") 50% 50% / auto 100% no-repeat; 
+  background-size: cover;
+ }
+
+.aboutimg2 img{
+ width:43vw;
+ transform-origin: center center; 
+ transform: translate(0%, 0%);
+}
+
+.project-2info{
+  color: black;
+  font-size: 3.5vh;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: -35vw;
+  margin-left: 8vw;
+
+}
+
+
+#page4{
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  /* z-index: 10; */
+  color: #fff;
+  overflow-x: hidden;
+}
+
+
+#page_No3 h4{
+    font-size: 3vh;
+    color: black;
+    font-weight: lighter;
+    padding-top: 20vh;
+    margin-left: 10vh; 
+  
+}
+#page_No3 h2{
+  font-size: 3vh;
+  color: black;
+  font-weight: lighter;
+  margin-top: -30px;
+  margin-left: 1200px;
+  text-transform: uppercase; 
+
+}
+
+#page_No3 h3{
+  font-size: 18vh;
+  color: black;
+  font-weight: lighter;
+  padding-top:-10px;
+  margin-left: 300px; 
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%,-35%);
+
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.My_img{ 
+margin-left: 320px;
+margin-top:-50px;
+height:23vw;
+width: 37vw;
+/* overflow:hidden;  */
+background: url("/Raigad\ img.jpg") 50% 50% / auto 100% no-repeat; 
+background-size: cover;
+}
+
+.Gaming-Music h3{
+  font-size: 18vh;
+  color: black;
+  font-weight: lighter;
+  padding-top: 30px;
+  margin-left: 300px; 
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(10%,-30%); */
+  line-height: 120px;
+}
+
+.discription h3{
+  font-size: 3vh;
+  color: black;
+  font-weight: lighter;
+  padding-top: 100px;
+  margin-left: 300px; 
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(10%,-80%); */
+
+}
+
+.discription h2 {
+  font-size: 20px;
+  color: black;
+  font-weight: lighter;
+  margin-top: -28px;
+  margin-left: 900px; 
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(60%,0%); */
+  padding-bottom: 12vw;
+
+}
+
+#page5{
+  min-height: 110vh;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  /* z-index: 10; */
+  color: #fff;
+  overflow-y: hidden;
+}
+.page_No4 h4{
+  font-size: 3vh;
+  color: black;
+  font-weight: lighter;
+  padding-top: 20vh;
+  margin-left: 10vh; 
+}
+
+.part1_heading{
+  font-size: 3.5vh;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
+  margin-left: 50vh; 
+  margin-top: -25vh;
+  
+}
+
+.part2_heading{
+  font-size: 3.5vh;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
+  margin-left: 130vh; 
+  margin-top: -27vh;
+  
+}
+
+.email-id h4 a{
+  color:black;
+  font-size: 16vh;
+  padding-top: 20vh;
+  margin-left: 10px; 
+  text-transform: uppercase;
+  line-height:120px ;
+  text-decoration: none;
+
+}
+
+.bottom_heading1 h4{
+  font-size: 3vh;
+  color: black;
+  font-weight: lighter;
+  padding-top: 20vh;
+  margin-left: 10vh; 
+}
+
+.bottom_heading2 h4 {
+  font-size: 3vh;
+  text-transform:none;
+  color: black;
+  font-weight: lighter;
+  margin-left: 530px; 
+  margin-top: -186px;
+ 
+  
+}
+.bottom_heading2 h4 a{
+  text-decoration: none;
+  color: black;
+}
+
+.bottom_heading3 h4{
+  font-size: 3vh;
+  text-transform:none;
+  color: black;
+  font-weight: lighter;
+  margin-left: 1100px; 
+  margin-top: -186px;
+}
+
+::-webkit-scrollbar{
+  width: .2rem;
+  border-radius: .5rem;
+  background-color: hsl(0, 0%, 65%);
+}
+
+::-webkit-scrollbar-thumb{
+  height: 0%;
+  border-radius: .5rem;
+  background-color: hsl(0, 0%, 55%);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(0, 0%, 45%);
+}
+  
+@media only screen  and (max-width:700px) {
+
+  html, body {
+    max-width: 100% !important; overflow-x: hidden !important; 
+  }
+
+  #loader{
+    height: 100%;
+    width: 100%;
+    position:fixed ;
+    background-color: black;
+    z-index: 99;
+    /* display: flex;  */
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+    padding-top: 100px;
+    
+  }
+
+  #loader h3{
+    font-size: 20px;
+    font-weight: 150;
+    margin-left: 30px;
+   padding-top: -10px;
+
+  }  
+
+  #page1{
+    min-height: 630px;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    position: relative;
+    z-index: 10; 
+    color: #fff;
+   
+  }
+#cursor{
+    height: 2px;  
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.707);
+    border-radius: 50%;
+    position: fixed;
+    z-index:1070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+
+    
+}
+#cursor h5{
+  opacity: 0;
+}
+
+#page1-content{
+
+  /* background-color: rgba(0, 0, 0, 0.295);*/
+   position: relative;
+   z-index: 10;
+   color:  rgb(216, 216, 216);
+ }
+ 
+ 
+   nav {
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 38px 38px;
+     width: 55%;
+     font-size: 10px;
+     color: black; 
+     margin-left: 5px;
+     box-sizing: border-box;
+     padding-bottom: 17.5px;
+     position:fixed;
+     z-index: 99; 
+ 
+   }
+   nav h2 a{
+     display: inline-block;
+     font-weight: 70px;
+     color:black;
+     text-decoration: none;
+   }
+     
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+  background-color: #f50e0e00;
+}
+.bounding h1 {
+  transform: translateY(100%);
+}
+
+
+#heading .boundingelm {
+    opacity: 100;
+    line-height:0.90;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 595; 
+    color: black;
+    padding-left:10.5px;
+    padding-top: 55px;
+    margin-left: 5px;
+}
+
+.base_titel{
+  margin-left: 10px;
+  width: fit-content;
+ background-color: #f50e0e00;
+}
+
+h5 {
+
+ color: black;
+ overflow: hidden;
+ text-align: right;
+ text-transform: uppercase;
+ font-size: 10px;
+ margin-left:10px;
+ 
+}
+h5 span{
+  display: inline-block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 4.3s;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+
+.box{
+  height: 200px;
+  width:70%;
+  max-width: 75%;
+  /* resize: 40%; */
+  color: #f50e0e;
+  background-size: cover;
+  background-color:rgb(255, 255, 255);
+  overflow:hidden;
+  /* resize: horizontal; */
+  padding: 5rem;
+  margin-left: 20px;
+  margin-top: 10px;
+  object-fit:contain;
+  background-image: url(/cover\ img\ PS.jpg); 
+  
+  display: block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 3.9s;
+  }
+  
+  @keyframes reveal {
+    0% {
+      transform: translate(0,100%);
+    }
+    100% {
+      transform: translate(0,0);
+    }
+  }
+
+  
+ #Titelname {
+  padding-left:10.5px;
+  padding-top: 100.5px;
+  margin-left: 3px;
+  color: black;
+  overflow: hidden;
+  text-transform: uppercase;
+  width:fit-content;
+  padding-inline-start: 10px;
+  background-color: #f50e0e00;
+  
+ }
+
+  h1{
+  font-size: 50px;  
+  font-weight:580;
+  line-height: 6vw;
+  line-height:0.90;
+  padding-left:10.5px;
+ 
+ 
+ }
+
+ h1 span{
+  display: block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 4.2s;
+ }
+ 
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
+
+
+.Arrow span{
+  
+  font-size: 50px;
+  color: black;
+  padding-left: 250px;
+  padding-bottom: 500px; 
+  animation:fadeInDown;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+
+}
+
+ 
+#AnimatedLines {
+  font-size:11px;
+  margin-left:25px;
+  padding-top:20px; 
+  text-transform: uppercase; 
+  font-weight: lighter;
+  color: black;
+  padding-top: 10px;
+  margin-top: 100px;
+} 
+#AnimatedLines{
+
+  animation:fadeInUp;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+}
+
+.page_No h4{
+  font-size: 20px;
+  /* padding-left: 3vh; */
+  color: black;
+  font-weight: lighter;
+  margin-left:-350px ;
+  margin-right: -200px;
+ margin-top: -210px;
+  
+}
+
+.Lines{
+  font-size: 26.7px;
+ /* padding-left: 3vh;*/ 
+  color: black;
+  font-weight: lighter;
+  margin-left:-350px ;
+  margin-right: 65px;
+ margin-top: 40px;
+ word-spacing: .4px;
+}
+
+
+
+.advantage_titel h4{
+  font-size: 20px;
+  /* padding-left: 3vh;*/ 
+   color: black;
+   font-weight: lighter;
+   margin-left:-410px ;
+   margin-top: -150px;
+}
+
+.paraghraph_lines{
+  font-size: 21.5px;
+  /* padding-left: 3vh;*/ 
+   color: black;
+   font-weight: lighter;
+   margin-left:-670px ;
+   margin-right:60px;
+   margin-top: 60px;
+}
+
+
+#page3{
+  min-height: 700px;
+  width: 100%;
+  background-color:rgb(216, 216, 216) ;
+  position: relative;
+  z-index: 9;
+  color: #fff;
+}
+
+.page_No2 h4{
+  font-size:20px;
+  color: black;
+  font-weight: lighter;
+  padding-top: 20vh;
+  margin-left: 30px; 
+}
+
+.Recent-project{
+  font-size: 3.5vh;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
+  margin-left:150px;
+  margin-top: -25vh;
+
+}
+
+
+.Creative-designe{
+  opacity:0;
+  margin-left:150px;
+  color:rgb(216, 216, 216) ;
+}
+
+.project-1 h4{
+  color: black;
+  font-weight: 600;
+  font-weight: 100;
+  font-size:50px;
+  padding-top: 13vh;
+  margin-left:20px;
+  line-height:1;
+}
+
+
+.aboutimg{
+   margin:0 auto; 
+   margin-left: 20px;
+   margin-top: 100px;
+   height: 420px;;
+   width: 280px;
+   overflow:hidden; 
+   background: url("/REJOUICE®\ _\ Digital\ Agency\ &\ Venture\ Firm.jpeg") 50% 50% / auto 100% no-repeat; 
+   background-size:cover; 
+  }
+
+.aboutimg img{
+  min-height: 63vw;
+  min-width:43vw;
+  transform-origin: center center; 
+  transform: translate(0%, 0%);
+}
+
+.project-1info{
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: -500px;
+  margin-left: 20px;
+
+}
+
+.project-2 h4{
+  color: black;
+  font-weight: 600;
+  font-weight: 100;
+  font-size:50px;
+  padding-top:390px;
+  margin-left:20px;
+  line-height:1;
+}
+
+.aboutimg2{
+  margin:0 auto; 
+   margin-left: 20px;
+   margin-top: 100px;
+   height: 420px;;
+   width: 280px;
+  overflow:hidden; 
+  background: url("/about-cover.jpg") 50% 50% / auto 100% no-repeat; 
+  background-size: cover;
+ }
+
+.aboutimg2 img{
+ width:43vw;
+ transform-origin: center center; 
+ transform: translate(0%, 0%);
+}
+
+.project-2info{
+  margin-top: -500px;
+  justify-content: space-around(20px);
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding-bottom: 10px;
+
+}
+
+
+#page4{
+  min-height: 630px;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  /* z-index: 10; */
+  color: #fff;
+  overflow-x: hidden;
+}
+
+
+#page_No3 h4{
+    font-size:20px;
+    color: black;
+    font-weight: lighter;
+    padding-top: 370px;
+    margin-left: 25px; 
+  
+}
+#page_No3 h2{
+  font-size: 3vh;
+  color: black;
+  font-weight: lighter;
+  margin-top: -25px;
+  margin-left: 150px;
+  text-transform: uppercase; 
+
+}
+
+#page_No3 h3{
+  font-size: 65px;
+  color: black;
+  font-weight: lighter;
+  padding-top:100px;
+  margin-left: 25px; 
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%,-35%);
+
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.My_img{ 
+margin-left: 25px;
+margin-top:-45px;
+height:200px;
+width: 300px;
+/* overflow:hidden;  */
+background: url("/Raigad\ img.jpg") 50% 50% / auto 100% no-repeat; 
+background-size: cover;
+}
+
+.Gaming-Music h3{
+  font-size:65px;
+  color: black;
+  font-weight: lighter;
+  padding-top: 30px;
+  margin-left: 25px; 
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(10%,-30%); */
+  line-height: 60px;
+}
+
+.discription h3{
+  font-size:20px;
+  color: black;
+  font-weight: lighter;
+  padding-top: 50px;
+  margin-left: 25px;
+  margin-right: 65px; 
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(10%,-80%); */
+
+}
+
+.discription h2 {
+  font-size: 20px;
+  color: black;
+  font-weight: lighter;
+  margin-top: 45px;
+  margin-left: 25px; 
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(60%,0%); */
+  padding-bottom: 12vw;
+
+}
+
+
+#page5{
+  min-height: 640px;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+  position: relative;
+  /* z-index: 10; */
+  color: #fff;
+  overflow-y: hidden;
+}
+.page_No4 h4{
+  font-size:20px;
+  color: black;
+  font-weight: lighter;
+  padding-top: 20vh;
+  margin-left: 25px; 
+}
+
+.part1_heading{
+  font-size:25px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: lighter;
+  margin-left:90px; 
+  margin-top: -25vh;
+  
+}
+
+.part2_heading{
+  font-size:25px;
+  text-transform: uppercase;
+  color: rgb(216, 216, 216);
+  font-weight: lighter;
+  margin-left: -150px; 
+  margin-top: -27vh;
+  
+}
+
+.part2_heading h4{
+  opacity: 0;
+  color: rgb(216, 216, 216);
+}
+
+.email-id h4 a{
+  color:black;
+  font-size:40px;
+  padding-top: 20vh;
+  padding-right: 70px;
+  margin-right: 70px;
+  margin-left: 20px;
+  text-transform: uppercase;
+  line-height:30px ;
+  text-decoration: none;
+
+}
+
+
+.bottom_heading1 h4{
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+  font-weight: lighter;
+  padding-top: -20px;
+  margin-left: 25px; 
+  margin-right: 0px; 
+}
+
+.bottom_heading2 h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform:none;
+  color: black;
+  font-weight: lighter;
+  margin-left: 25px; 
+  margin-top: -230px;
+ 
+  
+}
+.bottom_heading2 h4 a{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: -230px;
+  text-decoration: none;
+  color: black;
+  margin-right:0px;
+  justify-content: space-between;
+  width:-50px;
+}
+
+.bottom_heading3 h4{
+  font-size: 3vh;
+  text-transform:none;
+  color: black;
+  font-weight: lighter;
+  margin-left: 25px;
+  margin-top: -30px;
+  padding-right: 70px;
+  margin-right: 70px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+ 
