@@ -825,7 +825,7 @@ h5 span{
   
  #Titelname {
   padding-left:10.5px;
-  padding-top:150.5px;
+  padding-top:152.5px;
   margin-left: 3px;
   color: black;
   overflow: hidden;
@@ -876,14 +876,14 @@ h5 span{
 
  
 #AnimatedLines {
-  font-size:11px;
+  font-size:15px;
   margin-left:25px;
   padding-top:20px; 
   text-transform: uppercase; 
   font-weight: lighter;
   color: black;
   padding-top: 10px;
-  margin-top: 100px;
+  margin-top: 102px;
 } 
 #AnimatedLines{
 
@@ -1207,7 +1207,7 @@ background-size: cover;
   color: black;
   font-weight: lighter;
   padding-top: -20px;
-  margin-left: 195px; 
+  margin-left: 23px; 
   margin-right: 0px; 
 }
 
@@ -1240,7 +1240,7 @@ background-size: cover;
   color: black;
   font-weight: lighter;
   margin-left: 25px;
-  margin-top: -128px;
+  margin-top: -120px;
   padding-right: 70px;
   margin-right: 70px;
 }
