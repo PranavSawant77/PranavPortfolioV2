@@ -716,14 +716,14 @@ background-size: cover;
     justify-content: space-between;
     padding: 38px 15px;
     width: 55%;
-    font-size: 9px;
+    font-size: 8px;
     color: black;
     margin-left: 5px;
     box-sizing: border-box;
     padding-bottom: 17.5px;
     position:relative;
     z-index: 99;
-    font-size: 90%;
+    font-size: 80%;
   }
   nav h2 a {
     display: inline-block;
