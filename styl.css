@@ -716,23 +716,24 @@ background-size: cover;
     justify-content: space-between;
     padding: 38px 15px;
     width: 55%;
-    font-size: 8px;
+    font-size: 9px;
     color: black;
     margin-left: 5px;
     box-sizing: border-box;
     padding-bottom: 17.5px;
     position:relative;
     z-index: 99;
+    font-size: 90%;
   }
   nav h2 a {
     display: inline-block;
     font-weight: 70px;
     color: black;
     text-decoration: none;
-    margin-left: 230px;
+    margin-left: 240px;
     margin-top: 9px;
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: 90%;
   }
 
   .h2nav {
@@ -1202,13 +1203,14 @@ background-size: cover;
 
 
 .bottom_heading1 h4{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   color: black;
   font-weight: lighter;
-  padding-top: -20px;
+  padding-bottom: 10px;
   margin-left: 23px; 
   margin-right: 0px; 
+  font-size:96%;
 }
 
 .bottom_heading2 h4 {
