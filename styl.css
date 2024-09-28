@@ -909,7 +909,7 @@ h5 span{
  /* padding-left: 3vh;*/ 
   color: black;
   font-weight: lighter;
-  margin-left:-420px ;
+  margin-left:-430px ;
   margin-right: 141px;
  margin-top: 40px;
  word-spacing: .4px;
@@ -923,7 +923,7 @@ h5 span{
   /* padding-left: 3vh;*/ 
    color: black;
    font-weight: lighter;
-   margin-left:-400px ;
+   margin-left:-100px ;
    margin-top: -150px;
 }
 
@@ -932,7 +932,7 @@ h5 span{
   /* padding-left: 3vh;*/ 
    color: black;
    font-weight: lighter;
-   margin-left: -800px;
+   margin-left: -822px;
    margin-right:107px;
    margin-top: 55px;
  -webkit-line-break: after-white-space;
